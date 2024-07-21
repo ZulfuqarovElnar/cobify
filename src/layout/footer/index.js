@@ -60,7 +60,7 @@ const Footer = () => {
             <span>Saytın hazırlanması</span> 
             <img src="assets/images/okmedia_logo.png" alt="Okmedia" className="ml-2 h-5" />
           </div>
-        </div>
+        </div> 
       </div>
     </footer>
   );
