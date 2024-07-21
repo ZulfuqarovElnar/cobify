@@ -9,7 +9,7 @@ const VideoBackground = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
         src=''
         autoPlay
-        loop
+        loop 
         muted
       /> */}
       <div className="relative z-10 pt-10 flex items-center justify-center h-full bg-black bg-opacity-50">
