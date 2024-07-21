@@ -18,7 +18,7 @@ const VideoBackground = () => {
           <p className="mt-4">Bu yolda böyük dəstəkçiniz "NAS Project" sizə kömək edəcək.</p>
           <button className="mt-6 px-6 py-2 bg-yellow-500 text-black font-semibold rounded-full hover:bg-yellow-600">
             İNDİ BAŞLA
-          </button>
+          </button> 
         </div>
       </div>
     </div>
