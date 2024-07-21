@@ -1,9 +1,9 @@
 import Calculator from "./layout/Calculator";
 import CreditCards from "./layout/CreditCard";
-import VideoBackground from "./layout/CreditCard/video";
+import VideoBackground from "./layout/video";
 import Advantages from "./layout/advantages";
 import Footer from "./layout/footer";
-import KreditKalkulyatoru from "./layout/kredit";  
+import KreditKalkulyatoru from "./layout/kredit"; 
 import Navbar from "./layout/navbar";
 import Slider from "./layout/slider";
 
