@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="129" viewBox="0 0 140 129">
+    <defs>
+        <linearGradient id="b" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#9F3ED3"/>
+            <stop offset="100%" stop-color="#67269F"/>
+        </linearGradient>
+        <ellipse id="a" cx="66.758" cy="30.087" rx="28.576" ry="28.583"/>
+        <linearGradient id="c" x1="55.971%" x2="18.075%" y1="28.767%" y2="170.838%">
+            <stop offset="0%" stop-color="#F70"/>
+            <stop offset="100%" stop-color="#F65800"/>
+        </linearGradient>
+        <path id="d" d="M32.664 24.07h92.852a9.024 9.024 0 0 1 8.845 10.81l-6.924 34.291a15.04 15.04 0 0 1-14.742 12.064h-66.84C32.05 43.125 27.653 24.07 32.665 24.07zm29.984 12.034a4.914 4.914 0 0 0-4.914 4.914v23.268c0 2.714 2.2 4.914 4.914 4.914h2.205c2.714 0 4.913-2.2 4.913-4.914V41.018c0-2.714-2.2-4.914-4.913-4.914h-2.205zm21.056 0a4.914 4.914 0 0 0-4.914 4.914v23.268c0 2.714 2.2 4.914 4.914 4.914h2.205c2.714 0 4.913-2.2 4.913-4.914V41.018c0-2.714-2.2-4.914-4.913-4.914h-2.205zm21.056 0a4.914 4.914 0 0 0-4.914 4.914v23.268c0 2.714 2.2 4.914 4.914 4.914h2.205c2.714 0 4.913-2.2 4.913-4.914V41.018c0-2.714-2.2-4.914-4.913-4.914h-2.205z"/>
+        <filter id="e" width="120.9%" height="138.5%" x="-10.4%" y="-19.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="8.5"/>
+            <feOffset dx="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.923123937 0 0 0 0 0.346014696 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(4.882 -1.24)">
+        <rect width="34.592" height="58.67" x="82.321" y="4.681" fill="#FFCD1A" rx="5.956" transform="rotate(31 99.586 34.18)"/>
+        <use fill="#5ED43E" xlink:href="#a"/>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <use fill="url(#c)" xlink:href="#d"/>
+        <use fill="#000" filter="url(#e)" xlink:href="#d"/>
+        <path stroke="#FF8C00" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.528" d="M122.406 91.765h-75.25l-22.83-75.748a9.827 9.827 0 0 0-9.41-6.99H.583"/>
+        <path fill="#F14C00" d="M32.495 24.25l24.873 57.14-8.283-.003z"/>
+        <g>
+            <path stroke="#FF8C00" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.016" d="M123.91 93.27v22.565"/>
+            <g transform="translate(104.358 105.304)">
+                <ellipse cx="12.032" cy="12.035" fill="#2D3540" rx="12.032" ry="12.035"/>
+                <ellipse cx="12.032" cy="12.035" fill="#FFF" rx="4.512" ry="4.513"/>
+            </g>
+        </g>
+        <g>
+            <path stroke="#FF8C00" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.016" d="M45.702 93.27v22.565"/>
+            <g transform="translate(26.15 105.304)">
+                <ellipse cx="12.032" cy="12.035" fill="#2D3540" rx="12.032" ry="12.035"/>
+                <ellipse cx="12.032" cy="12.035" fill="#FFF" rx="4.512" ry="4.513"/>
+            </g>
+        </g>
+    </g>
+</svg>

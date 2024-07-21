@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Calculator from "./layout/Calculator";
+import CreditCards from "./layout/CreditCard";
+import VideoBackground from "./layout/CreditCard/video";
+import Advantages from "./layout/advantages";
+import Footer from "./layout/footer";
+import KreditKalkulyatoru from "./layout/kredit";
+import Navbar from "./layout/navbar";
+import Slider from "./layout/slider";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Slider />
+      <Advantages />
+      <KreditKalkulyatoru />
+      <CreditCards />
+      <VideoBackground />
+      <Calculator />
+      <Footer />
     </div>
   );
 }
