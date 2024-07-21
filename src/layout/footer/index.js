@@ -56,7 +56,7 @@ const Footer = () => {
           <div>
             <p>Copyright ©2024 "NAS Project" Bank Olmayan Kredit Təşkilatı</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center"> 
             <span>Saytın hazırlanması</span> 
             <img src="assets/images/okmedia_logo.png" alt="Okmedia" className="ml-2 h-5" />
           </div>
