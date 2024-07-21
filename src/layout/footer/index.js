@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="hover:underline">+994 50 232 92 07</p>
-            <p className="hover:underline">+994 12 489 80 00</p>
+            <p className="hover:underline">+994 12 489 80 00</p> 
             <p className="hover:underline">info@nasproject.az</p>
           </div>
         </div>
